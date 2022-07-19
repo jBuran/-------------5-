@@ -1,0 +1,59 @@
+.special {
+  background: url(./img/bg.png) center, no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  padding-top: 19px;
+}
+
+.special__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.special__left {
+  max-width: 533px;
+}
+
+.special__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.special__img {
+  margin-left: 146px;
+}
+
+.special__promo {
+  font-family: 'Lighthaus';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 140px;
+  line-height: 74.9%;
+  color: #FFFFFF;
+}
+
+.special__proposal {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 96.4%;
+  color: #FFFFFF;
+}
+
+.special__title {
+  font-family: 'Lighthaus';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 160px;
+  line-height: 74.9%;
+  text-align: right;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=index.css.map */

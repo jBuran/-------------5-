@@ -1,0 +1,66 @@
+.back {
+    background: url(./img/bg.png) center, no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    padding-top: 19px;
+    &__content {
+        display: flex;
+        align-items: center;
+    }
+    &__left {
+        max-width: 533px;
+    }
+   
+    &__right {
+        display: flex;
+    }
+    &__img {
+        margin-left: 146px;
+    }
+    &__promo {
+        font-family: 'Lighthaus';
+font-style: normal;
+font-weight: 200;
+font-size: 140px;
+line-height: 74.9%;
+color: #FFFFFF;
+
+    }
+    &__proposal {
+font-family: 'Mont';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 96.4%;
+color: #FFFFFF;
+margin-top: 50px;
+margin-bottom: 50px;
+
+    }
+    &__title {
+        font-family: 'Lighthaus';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 160px;
+        line-height: 74.9%;
+        text-align: right;
+        color: #FFFFFF;
+        position: absolute;
+        right: 60px;
+       bottom: 20px;
+
+    }
+  
+
+}
+.button {
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 96.4%;
+text-align: center;
+color: #FFFFFF;
+}
+

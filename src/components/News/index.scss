@@ -1,0 +1,106 @@
+.news {
+    
+    &__content {
+        display: flex;
+        justify-content: space-between;
+      
+    }
+    &__item {
+        max-width: 447px;
+        overflow: hidden;
+        font-family: "Mont";
+        position: relative;
+        margin-top: 42px;
+   
+    }
+    &__top {
+        width: 100%;
+    }
+    &__text {
+        font-family: 'Lighthaus';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 74.9%;
+text-align: center;
+color: #031412;
+margin-top: 80px;
+margin-bottom: 20px;
+    }
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 32px;
+    }
+    &__name {
+        font-weight: 600;
+        font-size: 20px;
+        color: #031412;
+        line-height: 96.4%;
+        max-width: 60%;
+    }
+    &__button {
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__price {
+        font-weight: 800;
+        font-size: 30px;
+        color: #031412;
+        line-height: 96.4%;
+    }
+    &__favorite {
+        &--animate {
+            display: none;
+        }
+    }
+    &__icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 18px 9px;
+        cursor: pointer;
+        &:hover {
+            .news__favorite--animate {
+                display: inline;
+            }
+            .news__favorite {
+                display: none;
+            }
+        }
+    }
+}
+
+.button__new {
+    padding: 14px 100px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+   text-align: center;
+   margin-bottom: 40px;
+   margin-top: 40px;
+   
+}
+
+.new {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 96.4%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1300px){
+    .news__content {
+        flex-wrap: wrap;
+    }
+    .item {
+        display: none;
+    }
+}
